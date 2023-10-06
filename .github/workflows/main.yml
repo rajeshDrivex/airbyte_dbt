@@ -20,4 +20,4 @@ jobs:
         run: pip install dbt-snowflake==1.0.0
 
       - name: Test DBT project
-        run: dbt debug
+        run: dbt debug --profiles-dir=
