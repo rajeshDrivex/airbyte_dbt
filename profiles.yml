@@ -1,13 +1,13 @@
 air_byte_test:
   outputs:
     dev:
-      # account: xy84596.ap-south-1
-      # database: AIRBYTE_DATABASE
-      # password: password
-      # role: AIRBYTE_ROLE
-      # schema: AIRBYTE_SCHEMA
-      # threads: 20
-      # type: snowflake
-      # user: AIRBYTE_USER
-      # warehouse: AIRBYTE_WAREHOUSE
+      account: xy84596.ap-south-1
+      database: AIRBYTE_DATABASE
+      password: password
+      role: AIRBYTE_ROLE
+      schema: AIRBYTE_SCHEMA
+      threads: 20
+      type: snowflake
+      user: AIRBYTE_USER
+      warehouse: AIRBYTE_WAREHOUSE
   target: dev
