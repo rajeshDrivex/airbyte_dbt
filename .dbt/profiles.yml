@@ -1,4 +1,4 @@
-air_byte:
+air_byte_test:
   outputs:
     dev:
       account: xy84596.ap-south-1
