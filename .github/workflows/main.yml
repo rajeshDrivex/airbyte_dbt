@@ -1,0 +1,23 @@
+name: DBT Test
+
+on:
+  push:
+    branches: main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.10
+
+      - name: Install DBT
+        run: pip install dbt-snowflake==1.0.0
+
+      - name: Test DBT project
+        run: dbt debug
